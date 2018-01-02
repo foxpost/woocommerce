@@ -1,0 +1,270 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Foxpost\n"
+"POT-Creation-Date: 2015-04-27 20:48+0100\n"
+"PO-Revision-Date: 2015-04-27 20:49+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: hu_HU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.3\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: bck/woocommerce-foxpostOLD2.php:30
+msgid "Foxpost"
+msgstr ""
+
+#: bck/woocommerce-foxpostOLD2.php:31 woocommerce-foxpost.php:42
+msgid "Description of foxpost shipping method"
+msgstr "Foxpost szállítási mód leírása"
+
+#: bck/woocommerce-foxpostOLD2.php:95 bck/woocommerce-foxpotOLD.php:69
+#: woocommerce-foxpost.php:152
+msgid "Enable/Disable"
+msgstr "Engedélyezése / tiltása"
+
+#: bck/woocommerce-foxpostOLD2.php:97 bck/woocommerce-foxpotOLD.php:71
+#: woocommerce-foxpost.php:154
+msgid "Enable this shipping method"
+msgstr "Engedélyezze ezt a szállítási módot"
+
+#: bck/woocommerce-foxpostOLD2.php:101 bck/woocommerce-foxpotOLD.php:75
+#: woocommerce-foxpost.php:158
+msgid "Method Title"
+msgstr "Cím"
+
+#: bck/woocommerce-foxpostOLD2.php:103 bck/woocommerce-foxpotOLD.php:77
+#: woocommerce-foxpost.php:160
+msgid "This controls the title which the user sees during checkout."
+msgstr ""
+"Itt állítható a név, amit a felhasználó a fizetés során lát és így jelenik "
+"meg fizetési típusként a végső rendelésnél."
+
+#: bck/woocommerce-foxpostOLD2.php:104 bck/woocommerce-foxpotOLD.php:28
+#: bck/woocommerce-foxpotOLD.php:29 bck/woocommerce-foxpotOLD.php:78
+#: bck/woocommerce-foxpotOLD.php:113
+msgid "FoxPost"
+msgstr "FoxPost"
+
+#: bck/woocommerce-foxpotOLD.php:30
+msgid "Define shipping by weight and country"
+msgstr "Határozza meg a szállítási súlyt és az országot"
+
+#: bck/woocommerce-foxpotOLD.php:114
+msgid "FoxPost Settings"
+msgstr "FoxPost beállítások"
+
+#: woocommerce-foxpost.php:41
+msgid "Foxpost - Smartest packages"
+msgstr "Foxpost - A legokosabb csomagok"
+
+#: woocommerce-foxpost.php:161
+msgid "Foxpost - A legokosabb csomagok"
+msgstr "Foxpost - A legokosabb csomagok"
+
+#: woocommerce-foxpost.php:164
+msgid "Fee Type"
+msgstr "Díj típusa"
+
+#: woocommerce-foxpost.php:166
+msgid "How to calculate delivery charges"
+msgstr "Postai és kézbesítési költségek"
+
+#: woocommerce-foxpost.php:169
+msgid "Fixed amount"
+msgstr "Fix összeg"
+
+#: woocommerce-foxpost.php:170
+msgid "Fixed amount per product"
+msgstr "Termékenként"
+
+#: woocommerce-foxpost.php:175
+msgid "Delivery Fee"
+msgstr "Szállítási díj"
+
+#: woocommerce-foxpost.php:177
+msgid ""
+"What fee do you want to charge for Foxpost locker delivery, disregarded if "
+"you choose free. Leave blank to disable."
+msgstr "A letiltáshoz hagyja üresen."
+
+#: woocommerce-foxpost.php:183
+msgid "Max Weight"
+msgstr "Maximális súlya"
+
+#: woocommerce-foxpost.php:185
+msgid "The maximum weight of a parcel is 25kg."
+msgstr "A legnagyobb összsúly"
+
+#: woocommerce-foxpost.php:186
+msgid "25"
+msgstr "25"
+
+#: woocommerce-foxpost.php:190
+msgid "Max dimension - size XS"
+msgstr "Az XS méret"
+
+#: woocommerce-foxpost.php:192
+msgid "The maximum dimension of a Size A parcel is 8x38x64."
+msgstr "Maximális méret"
+
+#: woocommerce-foxpost.php:193
+msgid "8x38x64"
+msgstr "8x38x64"
+
+#: woocommerce-foxpost.php:197
+msgid "Max dimension - size S"
+msgstr "Az S méret"
+
+#: woocommerce-foxpost.php:199
+msgid "The maximum dimension of a Size B parcel is 19x38x64."
+msgstr "Maximális méret"
+
+#: woocommerce-foxpost.php:200
+msgid "19x38x64"
+msgstr "19x38x64"
+
+#: woocommerce-foxpost.php:204
+msgid "Max dimension - size M"
+msgstr "Az M méret"
+
+#: woocommerce-foxpost.php:206 woocommerce-foxpost.php:213
+msgid "The maximum dimension of a Size C parcel is 41x38x64."
+msgstr "Maximális méret"
+
+#: woocommerce-foxpost.php:207
+msgid "41x38x64"
+msgstr "41x38x64"
+
+#: woocommerce-foxpost.php:211
+msgid "Max dimension - size L"
+msgstr "Az L méret"
+
+#: woocommerce-foxpost.php:214
+msgid "51x48x64"
+msgstr "51x48x64"
+
+#: woocommerce-foxpost.php:218
+msgid "Max dimension - size XL"
+msgstr "Az XL méret"
+
+#: woocommerce-foxpost.php:220
+msgid "The maximum dimension of a Size C parcel is 64x58x64."
+msgstr "Maximális méret"
+
+#: woocommerce-foxpost.php:221
+msgid "64x58x64"
+msgstr "64x58x64"
+
+#: woocommerce-foxpost.php:238 woocommerce-foxpost.php:626
+msgid "Not send"
+msgstr "Nincs elküldve"
+
+#: woocommerce-foxpost.php:238
+msgid "All"
+msgstr "Mind"
+
+#: woocommerce-foxpost.php:251 woocommerce-foxpost.php:509
+msgid "----- Choose ----"
+msgstr "----- Válasszon ----"
+
+#: woocommerce-foxpost.php:311 woocommerce-foxpost.php:388
+#: woocommerce-foxpost.php:406
+msgid "Reactivation"
+msgstr "Reaktíválás"
+
+#: woocommerce-foxpost.php:337
+msgid "Foxpost Shipping page."
+msgstr "Foxpost szállítási mód leírása"
+
+#: woocommerce-foxpost.php:344
+msgid "show"
+msgstr "Mutassuk"
+
+#: woocommerce-foxpost.php:367
+msgid "Export cash on delivery"
+msgstr "Export Utánvéttel"
+
+#: woocommerce-foxpost.php:369
+msgid "Export without cash on delivery"
+msgstr "Export utánvéttel nélkül"
+
+#: woocommerce-foxpost.php:372
+msgid "Refresh page"
+msgstr "Frissítse az oldalt"
+
+#: woocommerce-foxpost.php:381 woocommerce-foxpost.php:399
+msgid "Name"
+msgstr "Név"
+
+#: woocommerce-foxpost.php:382 woocommerce-foxpost.php:400
+msgid "Email"
+msgstr "E-mail"
+
+#: woocommerce-foxpost.php:383 woocommerce-foxpost.php:401
+msgid "Phone"
+msgstr "Telefon"
+
+#: woocommerce-foxpost.php:384 woocommerce-foxpost.php:402
+msgid "Payment method"
+msgstr "Fizetési mód"
+
+#: woocommerce-foxpost.php:385 woocommerce-foxpost.php:403
+msgid "Products"
+msgstr "Termékek"
+
+#: woocommerce-foxpost.php:386 woocommerce-foxpost.php:404
+msgid "Target terminal"
+msgstr "Cél terminál"
+
+#: woocommerce-foxpost.php:387 woocommerce-foxpost.php:405
+msgid "Status"
+msgstr "Állapot"
+
+#: woocommerce-foxpost.php:504
+msgid "Foxpost Terminal:"
+msgstr "Foxpost terminál:"
+
+#: woocommerce-foxpost.php:546
+msgid "<span>The product(s) not to carry with Foxpost"
+msgstr ""
+"<span>Az ön által kiválasztott termék(ek) Foxposttal nem szállítható</span>"
+
+#: woocommerce-foxpost.php:570
+msgid "<b>Foxpost terminal</b> not selected."
+msgstr "<b>Foxpost terminál</b> nincs bejelölve."
+
+#: woocommerce-foxpost.php:574
+msgid "Phone is a required field.."
+msgstr "A telefonszám megadása kötelező."
+
+#: woocommerce-foxpost.php:624
+msgid "Sended"
+msgstr "Elküldve"
+
+#~ msgid "Max dimension - size A"
+#~ msgstr "Az A méret"
+
+#~ msgid "Max dimension - size B"
+#~ msgstr "A B Méret"
+
+#~ msgid "Max dimension - size C"
+#~ msgstr "A C méret"
+
+#~ msgid "Max dimension - size D"
+#~ msgstr "A D méret"
+
+#~ msgid "Max dimension - size E"
+#~ msgstr "A E méret"
+
+#~ msgid "Export selected orders"
+#~ msgstr "A kiválasztott tételek exportálása"
