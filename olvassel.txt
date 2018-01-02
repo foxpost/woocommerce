@@ -1,0 +1,5 @@
+Kérjük a plugin telepítése elõtt készítsen biztonsági mentést!
+
+A pugin könytárát másolja a wp-content/plugin mappába, majd a Bõvítmények »  Új hozzáadás (Plugins » Add New) menüpontban kattintson a "Bekapcsol" linkre. (screenshot-1.png)
+
+A bõvítmény beállítási lehetõségeit a Woocommerce » Settings » Shipping » Foxpost - A legokosabb csomagok (Woocommerce » Settings » Shipping » Foxpost - Smartest packages) találja (screenshot-2.png)

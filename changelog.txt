@@ -1,0 +1,2 @@
+WordPress 4.4.1 verzió
+Woocommerce 2.4.13 verzió
