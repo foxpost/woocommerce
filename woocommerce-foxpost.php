@@ -892,6 +892,30 @@ if(!defined("FOXPOST_TABLE_NAME"))
 		$methods[] = 'WC_foxpost_Shipping_Method';
 		return $methods;
 	}
+	
+	add_action( 'woocommerce_email_after_order_table', 'wdm_add_shipping_method_to_order_email', 10, 2 );
+	
+	
+	///
+    // Add foxpost apt to order email
+    //
+	function wdm_add_shipping_method_to_order_email( $order, $is_admin_email ) {
+		global $wpdb;
+		$wpdb->show_errors();
+		$table_name = $wpdb->prefix.FOXPOST_TABLE_NAME;
+		$fp_datas = $wpdb->get_results("SELECT id, terminal_id, status FROM ".$table_name." WHERE order_id='".$order->id."'");
+		$apt_id = $fp_datas[0]->terminal_id;
+
+		$apts = getTerminals();
+		$apt_str = 'Ismeretlen';
+		foreach($apts as $apt){
+			if($apt_id == $apt['fp_place_id']){
+				$apt_str = $apt['fp_name'];
+			}
+		}
+		
+		echo '<p><h4>Választott terminál: <u> ' . $apt_str . '</h4></u></p>';
+	}
 
 
 //}
